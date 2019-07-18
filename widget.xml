@@ -92,4 +92,16 @@ OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
   <!-- container for actual page content -->
   <div class="container" id="main-content">
     <h1>Images</h1>
-    <input type="file" id="image-input" 
+    <input type="file" id="image-input" name="image-input" accept="image/png, image/jpeg">
+    <button id="submit-button">Submit</button>
+    <div id="images"></div>
+  </div>
+
+</body>
+</html>
+
+  ]]>
+  </Content>
+
+</Module>
+
